@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Your Website</title>
+</head>
+
+  <body>
+      <header>
+          <nav>
+              <ul class=>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="Doors.html">Our doors</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main>
+        <h1>DoorsCentral</h1>
+        <img src= "photos/Doormain.png" alt="Door Diagram" width="1000" height="600">
+          <section id="home">
+              <h2>We sell doors.</h2>
+              <p>Simple as that. No gimmick, no tricks, quality garanteed.</p>
+            <img src="photos/Door.png" alt="Door Diagram" width="500" height="300">
+            <img src="photos/Door2.png" alt="Door Diagram" width="500" height="300">
+            <img src="photos/Door3.png" alt="Door Diagram" width="500" height="300">
+          </section>
+          <section id="about">
+              <h2>About Us</h2>
+              <p class="centered">At DoorsCentral, we take pride in being more than just a company that sells doors; we are the architects of entranceways that seamlessly blend style, security, and durability. Our extensive collection showcases a diverse range of doors, from timeless classics to modern marvels, all crafted with precision and an unwavering commitment to quality. Whether you're seeking to make a bold statement with a grand entrance or aiming for subtle sophistication, DoorsCentral is your trusted partner in transforming houses into homes. Step into a realm of endless choices and unparalleled craftsmanship as you embark on a journey with us to redefine your living spaces, one door at a time.<br>                
+Quality products, fair prices, and great customer service are the reasons that DoorCentral has been able to enjoy such growth – we will always do everything within our power to satisfy our customer’s needs. We also provide staining, delivery and installation services with all of our timber door products to ensure that buying a new door or replacing an old door is as simple and stress-free as possible when visiting DoorCentral.</p>
+
+              <p class="centered">The process of purchasing one of our solid timber doors for your new home or as part of a renovation is simple – all you need to do is visit one of our four showroom locations based in Ziggsloga and on the Sunshine Coast and the Gold Coast, and we’ll do the rest!</p>
+
+              <p class="centered">Try to bring some rough measurements of your door openings when you visit – this will make our quoting process quicker and more accurate. Our custom joinery service also means that we can create just about anything for you – so bring in some pictures, sketches or photos of the look and style that you want and if we don’t have it stock then we can make it from scratch for you. Need some inspiration? Check out our gallery pages or to start getting an idea of what you would like.</p>
+
+              <p class="centered">Once we have the difficult task of selecting one of our door styles out of the way, we will then give you examples of door handles & locks that might be suitable for your every day use. From here, we can discuss some of our optional extras, such as staining & delivery – we offer these services so that you don’t have to worry about hiring a stainer to finish off the job. We are a one-stop-shop for all of your new & solid timber door needs!</p>
+
+              <p class="centered">Once you have placed your door order you can just sit back and relax while we take care of the rest – we will order in your timber doors and required hardware, get them stained and then organise a suitable time for you for delivery.</p>
+          </section>
+          <section id="contact">
+              <h2>Contact Us</h2>
+              <p>Call us at: +6587495125<br>
+                Or email us at: zeppelinyolo@gmail.com</p>
+            <p>Opening Hours:<br>
+Monday – Thursday 7:30am – 4:00pm<br>
+Friday 7:30 – 3:30pm<br>
+Saturday 9.00am to 12 noon<br>
+Sundays Closed</p>
+          </section>
+      </main>
+      <footer>
+          <p>&copy; Ziyao's Doors. ID A+ ASG1. All Rights Reserved.</p>
+      </footer>
+      <script src="js/script.js">
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+      </script>
+  </body>
+  </html>
+
+  
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
